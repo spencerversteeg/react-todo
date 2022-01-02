@@ -19,5 +19,5 @@ $ pnpm dev
 ### Build for production
 
 ```bash
-npm build
+$ pnpm build
 ```
