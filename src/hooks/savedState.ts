@@ -1,5 +1,4 @@
 import { Dispatch, useEffect, useState } from "react";
-import TodoItem from "../@types/TodoItem";
 
 export const useSavedState = (
   defaultValue: unknown,
