@@ -7,17 +7,17 @@ This is a basic React todo add with Typescript, you can add items, remove items,
 ### Install modules
 
 ```bash
-$ pnpm
+$ npm install
 ```
 
 ### Run in development
 
 ```bash
-$ pnpm dev
+$ npm run dev
 ```
 
 ### Build for production
 
 ```bash
-$ pnpm build
+$ npm build
 ```
