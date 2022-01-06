@@ -14,6 +14,7 @@ body {
 }
 
 body {
+  position: relative;
   font-family: "Inter";
   box-sizing: border-box;
 
@@ -24,6 +25,28 @@ body {
 
   color: var(--white);
   background-color: var(--black);
+}
+
+.github-link {
+  position: absolute;
+
+  top: 2rem;
+  left: 2rem;
+}
+
+.github-link a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.github-link a:hover {
+  text-decoration: underline;
+}
+
+.github-link svg {
+  margin-right: 0.5rem;
 }
 
 main {
@@ -40,6 +63,16 @@ header {
   padding: 1rem 0;
   border-top: 1px solid var(--white);
   border-bottom: 1px solid var(--white);
+}
+
+header h2 {
+  margin: 0 0 3rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+header h2 a {
+  color: inherit;
 }
 
 .todos {
